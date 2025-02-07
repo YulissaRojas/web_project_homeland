@@ -1,0 +1,16 @@
+.footer {
+  background-color: #2a2c2f;
+  width: 194px;
+  height: 16px;
+  top: 1968px;
+  left: 543px;
+  margin: 92px 241px 24px 395px;
+}
+
+.footer__copyright {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}

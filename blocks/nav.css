@@ -1,0 +1,8 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__logo {
+  padding-top: 34px;
+}
