@@ -1,7 +1,9 @@
 .page {
   background-color: #2a2c2f;
   font-family: "inter";
-  width: 1280px;
-  height: 2008px;
+  max-width: 1280px;
+  max-height: 2008px;
+  min-width: 768px;
+  min-height: 320px;
   top: -4524px;
   left: -2387px;}
