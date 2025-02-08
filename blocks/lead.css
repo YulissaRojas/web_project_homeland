@@ -12,7 +12,8 @@
   width: 720px;
   height: 200px;
   top: 194px;
-  padding-left: 120px;
+  padding-bottom: 32px;
+  margin: auto;
   font-weight: bold;
   font-size: 96px;
   line-height: 100px;
@@ -21,7 +22,8 @@
 .lead__subtitle {
   color: #ffffff;
   text-align: center;
-  padding-left: 120px;
+  margin: auto;
+  padding-bottom: 64px;
   width: 720px;
   height: 72px;
   font-size: 30px;

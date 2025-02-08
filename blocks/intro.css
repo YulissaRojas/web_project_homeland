@@ -1,9 +1,9 @@
 .intro {
-  width: 830px;
+  width: 800px;
   height: 607px;
   top: 1269px;
-  left: 148px;
-  margin: 92px 302px 132px 148px;
+  margin-left: 148px;
+  margin-bottom: 132px;
 }
 
 .intro__title {
