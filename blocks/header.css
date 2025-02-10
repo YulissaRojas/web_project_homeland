@@ -1,8 +1,8 @@
-.nav {
+.header {
   display: flex;
   justify-content: center;
 }
 
-.nav__logo {
+.header__logo {
   padding-top: 34px;
 }
