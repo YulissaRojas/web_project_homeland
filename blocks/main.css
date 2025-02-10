@@ -1,12 +1,10 @@
-.lead {
-  width: 984px;
-  height: 983px;
-  top: 194px;
-  left: 148px;
-  margin: 91px 148px 92px;
+.main {
+  width: 90vm;
+  max-width: 984px;
+  margin: 92px 148px 92px;
 }
 
-.lead__title {
+.main__title {
   color: #ffffff;
   text-align: center;
   width: 720px;
@@ -19,7 +17,7 @@
   line-height: 100px;
 }
 
-.lead__subtitle {
+.main__subtitle {
   color: #ffffff;
   text-align: center;
   margin: auto;
@@ -31,7 +29,7 @@
   font-weight: 400;
 }
 
-.lead__photo {
+.main__photo {
   width: 100%;
   height: 615px;
 }
