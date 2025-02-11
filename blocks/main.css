@@ -1,20 +1,19 @@
 .main {
-  width: 90vm;
   max-width: 1280px;
-  margin: 92px 148px 92px;
+  width: 100%;
+  margin: auto;
 }
 
 .main__title {
   color: #ffffff;
   text-align: center;
-  width: 720px;
   height: 200px;
-  top: 194px;
-  padding-bottom: 32px;
+  padding: 91px 0 32px;
   margin: auto;
   font-weight: bold;
   font-size: 96px;
   line-height: 100px;
+  margin: auto;
 }
 
 .main__subtitle {
@@ -22,7 +21,6 @@
   text-align: center;
   margin: auto;
   padding-bottom: 64px;
-  width: 720px;
   height: 72px;
   font-size: 30px;
   line-height: 36px;
@@ -31,4 +29,57 @@
 
 .main__photo {
   width: 100%;
+  max-width: 984px;
+  max-height: 615px;
+  padding-top: 64px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    max-width: 720px;
+    margin: 90px 24px 30px;
+  }
+}
+
+.main__title {
+  height: 158px;
+  padding-bottom: 25px;
+  font-size: 75px;
+  line-height: 79px;
+}
+
+.main__subtitle {
+  height: 72px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.main__photo {
+  min-width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    max-width: 290px;
+    margin: 0 16px;
+  }
+}
+
+.main__title {
+  height: 88px;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.main__subtitle {
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 0;
+}
+
+.main__photo {
+  min-width: 100%;
+  padding-top: 0 40px;
 }
