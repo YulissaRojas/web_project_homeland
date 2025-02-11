@@ -30,7 +30,6 @@
 .main__photo {
   width: 100%;
   max-width: 984px;
-  max-height: 615px;
   padding-top: 64px;
   display: block;
 }
@@ -38,11 +37,11 @@
 @media screen and (max-width: 768px) {
   .main {
     max-width: 720px;
-    margin: 90px 24px 30px;
   }
 }
 
 .main__title {
+  max-width: 530px;
   height: 158px;
   padding-bottom: 25px;
   font-size: 75px;
@@ -57,6 +56,7 @@
 
 .main__photo {
   min-width: 100%;
+  padding-top: 64px;
 }
 
 @media screen and (max-width: 320px) {
@@ -70,6 +70,7 @@
   height: 88px;
   font-size: 40px;
   line-height: 44px;
+  padding: 0 19px;
 }
 
 .main__subtitle {
@@ -80,6 +81,5 @@
 }
 
 .main__photo {
-  min-width: 100%;
-  padding-top: 0 40px;
+  max-width: 100%;
 }
