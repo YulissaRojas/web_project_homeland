@@ -1,14 +1,13 @@
 .main {
   max-width: 1280px;
-  width: 100%;
   margin: auto;
+  padding: 0 148px 0;
 }
 
 .main__title {
   color: #ffffff;
   text-align: center;
   height: 200px;
-  padding: 91px 0 32px;
   margin: auto;
   font-weight: bold;
   font-size: 96px;
@@ -25,10 +24,10 @@
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
+  padding-top: 32px;
 }
 
 .main__photo {
-  width: 100%;
   max-width: 984px;
   padding-top: 64px;
   display: block;
@@ -37,6 +36,7 @@
 @media screen and (max-width: 768px) {
   .main {
     max-width: 720px;
+    padding: 0;
   }
 }
 
@@ -61,8 +61,8 @@
 
 @media screen and (max-width: 320px) {
   .main {
-    max-width: 290px;
-    margin: 0 16px;
+    margin: 10px;
+    padding: 0;
   }
 }
 
