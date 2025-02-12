@@ -1,10 +1,10 @@
-.content {
+.main {
   max-width: 1280px;
   margin: auto;
   padding: 0 148px 0;
 }
 
-.content__title {
+.main__title {
   color: #ffffff;
   text-align: center;
   height: 200px;
@@ -15,7 +15,7 @@
   margin: auto;
 }
 
-.content__subtitle {
+.main__subtitle {
   color: #ffffff;
   text-align: center;
   margin: auto;
@@ -27,20 +27,20 @@
   padding-top: 32px;
 }
 
-.content__photo {
+.main__photo {
   max-width: 984px;
   padding-top: 64px;
   display: block;
 }
 
 @media screen and (max-width: 768px) {
-  .content {
+  .main {
     max-width: 720px;
     padding: 0;
   }
 }
 
-.content__title {
+.main__title {
   max-width: 530px;
   height: 158px;
   padding-bottom: 25px;
@@ -48,38 +48,38 @@
   line-height: 79px;
 }
 
-.content__subtitle {
+.main__subtitle {
   height: 72px;
   font-size: 30px;
   line-height: 36px;
 }
 
-.content__photo {
+.main__photo {
   min-width: 100%;
   padding-top: 64px;
 }
 
 @media screen and (max-width: 320px) {
-  .content {
+  .main {
     margin: 10px;
     padding: 0;
   }
 }
 
-.content__title {
+.main__title {
   height: 88px;
   font-size: 40px;
   line-height: 44px;
   padding: 0 19px;
 }
 
-.content__subtitle {
+.main__subtitle {
   height: 40px;
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 0;
 }
 
-.content__photo {
+.main__photo {
   max-width: 100%;
 }
