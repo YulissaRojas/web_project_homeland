@@ -8,14 +8,12 @@
 
 @media screen and (max-width: 768px) {
   .page {
-    background-color: green;
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page {
-    background-color: red;
     max-width: 320px;
   }
 }
