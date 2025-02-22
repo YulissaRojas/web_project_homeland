@@ -1,5 +1,6 @@
 .places {
-  margin: 0 auto;
+  margin: auto;
+  max-width: 984px;
 }
 
 .place {
@@ -10,8 +11,8 @@
   grid-gap: 48px 40px;
   grid-template-areas:
     "title artist"
-    "photo text1"
-    "button text2";
+    "photo text"
+    "button text";
   margin: 80px auto;
 }
 
@@ -26,11 +27,11 @@
 .place__photo {
   width: 100%;
   grid-area: photo;
+  box-shadow: 10px 10px 25px 0px #00000080;
 }
 
 .place__artist {
   grid-area: artist;
-  margin-bottom: ;
 }
 
 .place__artist-title {
@@ -48,31 +49,21 @@
   color: #ffffff;
 }
 
-.place__text1 {
+.place__text {
   font-family: "Inter";
   font-size: 18px;
-  width: 484px;
-  height: 203px;
+  font-weight: 400;
   line-height: 29.34px;
   color: #ffffff;
-  grid-area: text1;
-  margin: 0;
-}
-
-.place__text2 {
-  font-family: "Inter";
-  font-size: 18px;
-  width: 484px;
-  height: 261px;
-  line-height: 29.34px;
-  color: #ffffff;
-  grid-area: text2;
+  grid-area: text;
+  margin: 25px auto;
 }
 
 .place__button {
   font-family: "Inter";
   font-size: 18px;
   line-height: 21.78px;
+  font-weight: 600;
   width: 289px;
   height: 48px;
   color: #ffffff;
@@ -83,9 +74,97 @@
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
+  border-radius: 5px;
   grid-area: button;
+  box-shadow: 5px 5px 10px 0px #00000040;
+  padding: 15px;
 }
 
 .place__button:hover {
-  background: linear-gradient();
+  background: linear-gradient(#0278FE, #003A7B);
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    margin: auto 24px;
+  }
+
+  .place {
+    grid-column: repeat (1, 1fr);
+    grid-template-rows: repeat (3, auto);
+  }
+
+  .place__title {
+    font-size: 42px;
+  }
+
+  .place__artist-title {
+    font-size: 12px;
+  }
+
+  .place__artist-name {
+    font-size: 18px;
+  }
+
+  .place__photo {
+    max-width: 340px;
+    max-height: 340px;
+  }
+
+  .place__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .place__button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .place {
+    grid-template-columns: 2fr;
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas:
+    "title"
+    "artist"
+    "photo"
+    "text";
+    margin: 0 16px;
+  }
+
+  .place__title {
+    font-size: 32px;
+    grid-area: title;
+  }
+
+  .place__artist-title {
+    font-size: 12px;
+  }
+
+  .place__artist-name {
+    font-size: 18px;
+  }
+
+  .place__photo {
+    max-width: 320px;
+    max-height: 320px;
+    grid-area: photo;
+  }
+
+  .place__text {
+    font-size: 16px;
+    grid-area: text;
+  }
+
+  .place__button {
+    font-size: 14px;
+    margin: auto;
+  }
 }
