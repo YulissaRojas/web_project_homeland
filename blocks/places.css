@@ -1,34 +1,91 @@
 .places {
-margin:0 auto ;
+  margin: 0 auto;
+}
+
+.place {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 150px auto auto;
+  grid-gap: 48px 40px;
+  grid-template-areas:
+    "title artist"
+    "photo text1"
+    "button text2";
+  margin: 80px auto;
 }
 
 .place__title {
+  font-family: "Inter";
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  grid-area: title;
 }
 
 .place__photo {
-
+  width: 100%;
+  grid-area: photo;
 }
 
 .place__artist {
-
+  grid-area: artist;
+  margin-bottom: ;
 }
 
 .place__artist-title {
-
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #aaaaaa;
+  margin: 85px auto 8px 0;
 }
 
 .place__artist-name {
-
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
 }
 
-.place__text {
-
+.place__text1 {
+  font-family: "Inter";
+  font-size: 18px;
+  width: 484px;
+  height: 203px;
+  line-height: 29.34px;
+  color: #ffffff;
+  grid-area: text1;
+  margin: 0;
 }
 
-.place__text-paragraph {
-
+.place__text2 {
+  font-family: "Inter";
+  font-size: 18px;
+  width: 484px;
+  height: 261px;
+  line-height: 29.34px;
+  color: #ffffff;
+  grid-area: text2;
 }
 
 .place__button {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 21.78px;
+  width: 289px;
+  height: 48px;
+  color: #ffffff;
+  text-align: center;
+  background: linear-gradient(#0278fe, #003a7b);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  grid-area: button;
+}
 
+.place__button:hover {
+  background: linear-gradient();
 }
