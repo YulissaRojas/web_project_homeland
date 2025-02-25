@@ -74,7 +74,7 @@
   height: 48px;
   color: #ffffff;
   text-align: center;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  background-image: linear-gradient(90deg, #0278fe, #003a7b 99.98%);
   display: flex;
   flex-direction: column;
   justify-content: center;
