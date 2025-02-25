@@ -86,7 +86,7 @@
 }
 
 .place__button:hover {
-  background: linear-gradient(#0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe, #003a7b 99.98%);
 }
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
